@@ -1,0 +1,189 @@
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Revalia", sans-serif;
+}
+
+/* Базовые стили */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.container {
+    max-width: 1106px;
+    margin: 0 auto;
+}
+
+/* Секция hero */
+/* header */
+.hero {
+    background: rgb(238, 239, 241);
+    padding-top: 56px;
+    padding-bottom: 146px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: block;
+    width: 96px;
+}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+    column-gap: 42px;
+    text-transform: uppercase;
+}
+
+.nav__item {}
+
+.nav__link {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    transition: color 0.3s;
+}
+
+.nav__link:hover {
+    color: #34547a;
+}
+
+/* hero__main */
+.hero__main {
+    display: flex;
+    padding-top: 162px;
+}
+
+.hero__img-wrap {
+    width: 50%;
+    text-align: center;
+}
+
+.hero__img {
+    width: 357px;
+}
+
+.hero__content {
+    width: 50%;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 48px;
+    color: #000;
+    margin-bottom: 46px;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 164%;
+    color: #727272;
+    text-align: center;
+}
+
+.hero__subtitle {
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.hero__btn-wrap {}
+
+.btn {
+    display: inline-block;
+    padding: 25px 41px;
+    background: #34547a;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 0.4s;
+}
+
+.btn:hover {
+    background-color: #2e6eba;
+}
+
+/* about */
+.about {
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.about__content {
+    max-width: 540px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+/* achievements */
+
+.achievements {
+    background-color: #34547a;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.achievements__list {
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+}
